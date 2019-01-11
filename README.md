@@ -5,21 +5,21 @@ This package offers the date field which only contains Turkish language. Used fl
 Using Composer:
 
 ```
-composer require aozen/nova-turkish-datetimepicker
+composer require aozen/turkish-date
 ```
 
 # Usage
-Top of the resource file include TurkishDateTime:
+Top of the resource file include TurkishDate:
 
 ```
-use Aozen\TurkishDatetimepicker\TurkishDateTime;
+use Aozen\TurkishDate\TurkishDate;
 ```
 
 
-Use with TurkishDateTime:
+Use with TurkishDate:
 
 ```
-TurkishDateTime::make('Created At')
+TurkishDate::make('Created At')
 ```
 
 # Sample
